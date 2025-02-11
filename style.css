@@ -28,6 +28,7 @@
   color: white;
   font-style: italic;
   z-index: 20;        /* Asegura que esté por encima de las flores */
+  font-size: 50px;
   pointer-events: none; /* Opcional: para que el texto no interfiera con interacciones debajo */
 }
 .texto2 {
