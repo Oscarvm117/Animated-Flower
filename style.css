@@ -5,6 +5,19 @@
   margin: 0;
   box-sizing: border-box;
 }
+@media (max-width: 600px) {
+  .texto1 {
+    font-size: 20px;  /* Reducimos el tamaño del texto principal */
+    top: 15px;        /* Mantiene una separación adecuada desde la parte superior */
+    left: 15px;       /* Separación del borde izquierdo */
+  }
+
+  .texto2 {
+    font-size: 18px;  /* Reducimos el tamaño del texto secundario */
+    bottom: 15px;     /* Ajustamos la distancia del borde inferior */
+    right: 15px;      /* Ajustamos la distancia del borde derecho */
+  }
+}
 
 .texto1 {
   position: absolute; /* Posiciona el texto de forma absoluta */
